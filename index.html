@@ -29,11 +29,11 @@
             <div class='col-md-12 border'>
                <nav id="nav">
                     <ul class="buton-wrap">
-                        <button data-toggle="modal" data-target="powersource_modal">Power Sources</button>
+                        <button data-toggle="modal" data-target="#powersource_modal">Power Sources</button>
                         <button data-toggle="modal" data-target="#css3_modal">Airsoft Guns</button>
                         <button data-toggle="modal" data-target="#html5_modal">Gear</button>
-                        <button data-toggle="modal" data-target="">Attachments</button>
-                        <button data-toggle="modal" data-target="">Playing Style</button>
+                        <button data-toggle="modal" data-target="#attachments_modal">Attachments</button>
+                        <button data-toggle="modal" data-target="#playingstyles_modal">Playing Style</button>
                     </ul>
                </nav>
             </div>
@@ -105,13 +105,38 @@
     </div>
 </div> 
 <!--End Container Div      -->
+<!-- Modal -->
+<div class="modal fade" id="powersource_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Power Sources</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/aeg.jpg">
+       <img src="images/HPA.jpg">
+          <img src="images/Greengas.jpg">
+          <br>
+          <p>There are mulitple<strong>Power Sources</strong> that you can choose from. the least expensive is spring powered guns, but the down side is unless it's not a sniper rifle it sucks. The next stage up is an AEG which stands for Automatic Electric Gun, these are pretty reliable and very upgradable. Next is Green Gas, these can get a bit pricey but are extremely reliable and add realistic functions. Green Gas is sold in presserized cans and is inserted into the mags of the gun that uses it to operate. The most expensive option is HPA, High Pressured Air. HPA is a speedsofters best friend and worst nightmare at the same time because it shoots really fast but is expensive to refill the tanks.</p>
+          <p>From Right to Left:</p><span>
+          AEG gearbox, HPA rifle, Green Gas.</span>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Modal-HTML5 -->
 <div class="modal fade" id="html5_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">The Gear</h4>
       </div>
       <div class="modal-body">
         <img src="images/helmet.jpg">
@@ -135,14 +160,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-ti" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-ti" id="myModalLabel">Airsoft Guns</h4>
       </div>
       <div class="modal-body">
-        <img src="images/CSS3.png">
+        <img src="">
           <br>
           <p><strong>Airsoft Guns</strong> that you choose  is all up to you. If you enjoy close quarter gameplay then I suggest a PDW(Personal Defense Weapon) where as if you prefer long distance mayhem you'd run with a sniper. if you don't like reloading then pick an LMG, but keep in mind that they're ridiculously expensive. If your thing is medium range engagements with the capability of close quarters then I recommend an assault rifle.</p>
           <p>Source:</p><span><a
-          href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'>https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5</a></span>
+          href='https://www.youtube.com/watch?v=ZGxIigyQsOA'>Guide to buying your first Airsoft Gun by Desert Fox Airsoft</a></span>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -152,15 +177,19 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="powersource_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="attachments_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Attachments</h4>
       </div>
       <div class="modal-body">
-        ...
+       <img src="images/laser.jpg">
+        <img src="images/angledgrip.jpg">
+          <br>
+          <p><strong>Attachments</strong> are ment to enhance the look of your gun as well as your performance during gameplay, such as a better grip on your gun or illuminating dark areas of the field. grenade launchers are perfect clearing rooms and can be mounted in the bottom of your guns rails. foregrips help you keep a stable grip on you airsoft guns. flashlights and lasers are fantastic for close quarters and dark areas.</p>
+         
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -169,7 +198,30 @@
     </div>
   </div>
 </div>
-    
+<!-- Modal Playing styles -->
+<div class="modal fade" id="playingstyles_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Playing Styles</h4>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+       <img src="images/speedmilsim.jpg">
+        <img src="images/normalairsoft.jpg">
+          <br>
+          <p><strong>Your Playing Styles</strong> will differentiate from field to field. when playing indoor you'll notice that there is a lot of running and non-stop action, this is known to most airsofters as speedsoft. when playing at outdoor events you will see those people with thousands of dollars worth of authentic military gear, those are MILSIMers or "Geardos". and you will also notice the normal airsofters who wear military gear but to an extent. you can choose what you want to be. Geardo, normal, or Speedsofter.</p>
+         
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>   
    
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
