@@ -80,7 +80,7 @@ min-width: 178px;
 }
 .image-content > img {
         max-width: 200px;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 4px #4E8564 solid;
 }
 
