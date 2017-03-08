@@ -3,14 +3,15 @@ COLORS:
 Faded Green: #4E8564
 Dark Blue:#1C136B
 Dark Gold: #D1B239
-greenyellow: greenyellow
 wheatish: #eae59c
+tan: tan
+Olive: olive
 */
 
 
 body {
-    background-color: none;
-    color:#1C136B;
+    background-color:tan;
+    color: darkolivegreen;
 }
 
 #header {
@@ -128,16 +129,17 @@ min-width: 178px;
 #aside-right h3 {
     text-align: center;
 }
-#latest-work {
+#latest-Events {
     list-style-type: none;
+    font-size: large;
 }
-#latest-work > li {
+#latest-Events > li {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
     border-bottom: 1px black solid;
 }
-#latest-work > li:before {
+#latest-Events > li:before {
    content: '';
     border-color: transparent #1C136B;
     border-style: solid;
@@ -150,7 +152,7 @@ min-width: 178px;
     position: relative;
 }
 #favorite-sites{
-    background-image:url(img/apple-camera-desk-office.jpg);
+    background-image:url(img/speedmilsim.jpg);
     border-top: 5px #D1B239 solid;
     border-bottom: 5px #D1B239 solid;
     text-align: center;
@@ -163,7 +165,7 @@ min-width: 178px;
     padding: 40px
 }
 footer { 
-    background-color:white;
+    background-color:tan;
     text-align: center;
     font-family: 'lato', sans-serif;
     min-height: 100px;
